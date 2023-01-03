@@ -434,3 +434,21 @@ li
     font-weight:900;
     overflow-y: hidden;
 }
+/* Galeria */
+.Gtitle
+{
+    
+    float: left;
+    width: 100vw;
+    text-align: center;
+    height: 85vh;
+    margin-top: 90px;
+        
+    background:linear-gradient(0deg,rgba(0, 0, 0,0.5),rgba(0,0,0,0.5)),url(bialyskos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        /* filter: brightness(50%); */
+        
+     
+}
