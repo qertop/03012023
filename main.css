@@ -1,0 +1,436 @@
+
+*
+{
+    font-family:'Poppins' ;
+    overflow-x: hidden;
+}
+hr
+{
+    border-top: 2px solid rgb(24, 81, 238);
+}
+#gtoplist
+{
+    display: inline;
+    list-style: none;
+    margin-left: 70px;
+    margin-top: -5px;
+    position: absolute;
+}
+#toptoplist
+{
+    display: inline;
+    list-style: none;
+    position: absolute;
+    margin-left: -290px;
+    margin-top: 2px;
+}
+/*animacje przycisków */
+#jeden::before {
+    content:'';
+    position: absolute;
+    width:27%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 10;
+    background-color:black;
+    transform-origin:top;
+    transition: transform 0.25s ease-out;
+    text-decoration: unset;
+  }
+  
+  #jeden:hover::before {
+    transform: scale(1);
+    transform-origin: top;
+    text-decoration: unset;
+    
+  }
+  /*dwa*/
+  #dwa::before {
+    content:'';
+    position: absolute;
+    width:31%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 10;
+    background-color:black;
+    transform-origin:top;
+    transition: transform 0.25s ease-out;
+    text-decoration: unset;
+  }
+  
+  #dwa:hover::before {
+    transform: scale(1);
+    transform-origin: top;
+    text-decoration: unset;
+    
+  }
+  /* trzy */
+  #trzy::before {
+    content:'';
+    position: absolute;
+    width:13%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 10;
+    background-color:black;
+    transform-origin:top;
+    transition: transform 0.25s ease-out;
+    text-decoration: unset;
+  }
+  
+  #trzy:hover::before {
+    transform: scale(1);
+    transform-origin: top;
+    text-decoration: unset;
+    
+  }
+  /* cztwery */
+  #cztery::before {
+    content:'';
+    position: absolute;
+    width:14%;
+    transform: scale(0);
+    height: 2px;
+    bottom: 0;
+    left: 10;
+    background-color:black;
+    transform-origin:top;
+    transition: transform 0.25s ease-out;
+    text-decoration: unset;
+  }
+  
+  #cztery:hover::before {
+    transform: scale(1);
+    transform-origin: top;
+    text-decoration: unset;
+    
+  }
+  /*koniec animacji przycisków*/
+a
+{
+text-decoration: none;
+color:black;
+}
+li
+{
+    float: left;
+    margin-left: 10px;
+    text-align: -webkit-match-parent;
+}
+#gtop
+{
+    transition: top 0.5s;
+    margin-top: 0px;
+    position: fixed;
+    width: 100vw;
+    border-bottom:solid black 1px;
+    height: 25px;
+    z-index: 10000;
+}
+#toptop
+{
+    position:fixed;
+    z-index: 1000;
+    width: 100%;
+    height:40px;
+    color:black;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+    margin-top:30px;
+    transition: top 0.2s;
+}
+.top
+{
+    float: left;
+    width: 100vw;
+    text-align: center;
+    height: 85vh;
+    margin-top: 90px;
+    
+    background:linear-gradient(0deg,rgba(0, 0, 0,0.5),rgba(0,0,0,0.5)),url(truck1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* filter: brightness(50%); */
+    
+}
+
+.texttop
+{
+    margin-top: 170px;
+    font-size: 55px;
+    color:white;
+}
+.onas
+{
+    width: 100vw;
+    height: 85vh;
+    float: left;
+    margin-top: 100px;
+}
+.onasleft
+{
+    float: left;
+    width: 50vw;
+}
+.onasright
+{
+    float:right;
+    width: 45vw;
+    margin-right: 5vw;
+
+}
+#onasimg
+{
+    margin-top: 65px;
+    width: 45vw;
+    margin-left: 5vw;
+}
+.oferta
+{
+    float: left;
+    width: 100vw;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    height: 1100px;
+}
+#ofertacon1
+{
+    background-size: cover;
+    float: left;
+    margin-left: 25vh;
+    height: 380px;
+    width:480px;
+    background:url(oferta1.jpg);
+    background-size: cover;
+    overflow-y: hidden;
+    
+}
+#ofertacon2
+{
+    background-size: cover;
+    float: left;
+    margin-left: 5vh;
+    height: 380px;
+    width:480px;
+    background:url(truck1.jpg);
+    background-size: cover;
+    overflow-y: hidden;
+    
+}
+#ofertacon3
+{
+    background-size: cover;
+    float: left;
+    margin-top: 5vh;
+    margin-left: 25vh;
+    height: 380px;
+    width:480px;
+    background:url(oferta3.jpg);
+    background-size: cover;
+    overflow-y: hidden;
+    
+}
+#ofertacon4
+{
+    background-size: cover;
+    float: left;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    height: 380px;
+    width:480px;
+    background:url(oferta4.jpg);
+    background-size: cover;
+    overflow-y: hidden;
+    
+}
+.ofertanapis
+{
+    color:white;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    margin-top:280px;
+    width:100%;
+    height:30%;
+    background:linear-gradient(0deg,rgba(0, 0, 0,0.5),rgba(0,0,0,0.5));
+    font-family: 'Poppins';
+    
+    font-size: 20px;
+}
+.stopkatop
+{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(0deg,rgba(0, 0, 0,0.5),rgba(0,0,0,0.5)),url(stopka.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    float:left;
+}
+.stopkatopnapis
+{
+    color:white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+}
+.stopkabottom
+{
+    height: 110px;
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    text-align: center;
+    padding-top: 90px;
+    color:darkgrey;
+    float: left;
+}
+/* NASZE SAMOCHODY */
+.Ntop
+{
+    float: left;
+    width: 100vw;
+    height: 85vh;
+    margin-top: 90px;
+    
+    background:linear-gradient(0deg,rgba(0, 0, 0,0.5),rgba(0,0,0,0.5)),url(naszesamochody.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.Ntoptext
+{
+    color:white;
+    font-size: 60px;
+    margin-top:200px;
+    margin-left: 100px;
+}
+.Nmain
+{
+    width: 100%;
+    height: 2440px;
+    float: left;
+}
+.nasze1
+{
+    float: left;
+    width:100% ;
+    height: 510px;
+    margin-top: 100px;
+}
+.nleft1
+{
+    float: left;
+    width: 40%;
+    height: 245px;
+    color:darkslategray;
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 200px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.nright1 
+{
+    float: right;
+    height: 410px;
+    width: 40%;
+    padding:50px;
+}
+.nasze2
+{
+    float: left;
+    width:100% ;
+    height: 510px;
+    margin-top: 100px;
+    background-color: rgb(235, 235, 235);
+    overflow: hidden;
+}
+.nleft2
+{
+    
+    float: left;
+    height: 410px;
+    width: 40%;
+    padding:70px;
+}
+.nright2
+{
+    float: left;
+    width: 40%;
+    height: 400px;
+    color:darkslategray;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    overflow-y: hidden;
+}
+.nasze3
+{
+    float: left;
+    width:100% ;
+    height: 510px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.nleft3
+{
+
+    float: left;
+    width: 29%;
+    height: 400px;
+    color:rgb(32, 30, 30);
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 140px;
+    font-size: 30px;
+    font-weight:900;
+    overflow-y: hidden;
+}
+.nright3
+{
+    
+    float: left;
+    height:500px;
+    width: 50%;
+    padding-left: 150px;
+    overflow-y: hidden;
+
+}
+.nasze4
+{
+    float: left;
+    width:100% ;
+    height: 510px;
+    margin-top: 100px;
+    background-color: rgb(235, 235, 235);
+    overflow: hidden;
+}
+.nleft4
+{
+    
+    float: left;
+    height: 410px;
+    width: 40%;
+    padding:70px;
+}
+.nright4
+{
+    float: left;
+    width: 40%;
+    height: 400px;
+    color:rgb(32, 30, 30);
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 200px;
+    font-size: 35px;
+    font-weight:900;
+    overflow-y: hidden;
+}
