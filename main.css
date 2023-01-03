@@ -452,3 +452,20 @@ li
         
      
 }
+.Gcontent
+{
+    width: 100%;
+    height: 2440px;
+    float: left;
+}
+.Gbox
+{
+    float: left;
+    width: 500px;
+    height: 400px;
+}
+.galeria
+{
+    width: 400px;
+    height: 300px; 
+}
