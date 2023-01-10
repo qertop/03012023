@@ -4,6 +4,10 @@
     font-family:'Poppins' ;
     overflow-x: hidden;
 }
+.Kformtitle hr
+{
+    border-top: 1px solid rgb(189, 195, 212);;
+}
 hr
 {
     border-top: 2px solid rgb(24, 81, 238);
@@ -452,20 +456,127 @@ li
         
      
 }
+.Gtoptext
+{
+    color:white;
+    font-size: 60px;
+    margin-top:30vh;
+    margin-left: -67vw;
+}
+.Gonas
+{
+    float: LEFT;
+    text-align: center;
+    width: 100vw;
+}
 .Gcontent
 {
-    width: 100%;
-    height: 2440px;
+    width: 90%;
+    height: 550px;
     float: left;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-left: 8vw;
+    margin-top: -10vh;
+
 }
 .Gbox
 {
     float: left;
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
+    flex:1 0 47%;
 }
 .galeria
 {
-    width: 400px;
-    height: 300px; 
+    width: 550px;
+    height: 450px; 
 }
+.Ktitle
+{
+    
+    float: left;
+    width: 100vw;
+    text-align: center;
+    height: 85vh;
+    margin-top: 90px;
+        
+    background:linear-gradient(0deg,rgba(0, 0, 0,0.5),rgba(0,0,0,0.5)),url(jedzie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        /* filter: brightness(50%); */
+        
+     
+}
+.Ktoptext
+{
+    color:white;
+    font-size: 60px;
+    margin-top:30vh;
+    margin-left: -65vw;
+}
+.Kmain
+{
+    float: left;
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+.Kmainright
+{
+    margin-left: -10vw;
+}
+.Kformtitle
+{
+    float: left;
+    width: 40vw;
+}
+input 
+{
+    border: none;
+    outline: none;
+}
+label
+{
+    font-size: small;
+
+}
+.Kaddon
+{
+    float: left;
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Kaddoncontainer
+{
+    flex:1 0 25%;
+    height: 13vh;
+    width: 10vw;
+    margin-left: 5vw;
+    color:grey;
+    overflow: hidden;
+}
+.Kaddon img
+{
+    height: 10vh;
+    width: 5vw;
+}
+.Kaddoncontainerleft
+{
+    float: left;
+    
+}
+.Kaddoncontainerright
+{
+    float: left;
+    margin-left: 2vw;
+}
+
