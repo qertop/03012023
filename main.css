@@ -203,6 +203,7 @@ li
     text-align: center;
     background-color: rgb(243, 243, 243);
     height: 1100px;
+    overflow-y: hidden;
 }
 #ofertacon1
 {
@@ -578,5 +579,26 @@ label
 {
     float: left;
     margin-left: 2vw;
+}
+.arrow
+{
+    height: 70px;
+    width: 40px;
+
+}
+@keyframes arrow_animation
+{
+    0%{margin-top:0px;}
+    50%{margin-top:20px;}
+    100%{margin-top:0px}
+}
+
+button:hover
+{
+    transform: translateX(+15px);
+}
+.button span:hover
+{
+    transform: translateX(+15px);
 }
 
